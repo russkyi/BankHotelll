@@ -1,0 +1,416 @@
+@import url('/files');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background-color:#313F38;;
+}
+
+/* Навигационная панель */
+header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1.3rem;
+}
+.reagunt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.reagunt a{
+    color: white;
+    text-decoration: none;
+}
+
+.reagunt a:hover{
+    color: rgb(146, 144, 144);
+}
+
+/* Секция первая */
+.maim-bar{
+    margin-bottom: 3rem;
+}
+
+.center-bar{
+    padding-inline:1.5rem ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-bar{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.firm>p{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 10rem;
+}
+
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.1px solid;
+    border-color:  #ffffff;
+    border-radius: 99px;
+    width: 13rem;
+    height: 4rem;
+}
+
+.rectangle>span{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.right-bar>.rectangle{
+    margin-top: 3rem;
+}
+
+.bottom-bar{
+    color: white;
+    margin-top: 2rem;
+    line-height: 26px;
+    font-size: 1rem;
+    width: 300px;
+    height: 58px;
+}
+
+/* Кнопка */
+.nav-btn{
+    margin-top: 5rem;
+    margin-right: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Навигационная фотка */
+.nav-img{
+    padding-top: 5rem;
+    display: flex;
+}
+
+.nav-img>img{
+    z-index: -1;
+    width: 100%;
+    padding-inline: 1.5rem ;
+}
+
+.nav-text-img{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    left: 380px;
+}
+
+.negativ-block{
+    padding-left: 2rem;
+    width: 780px;
+    height: 125px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 300px;
+    background-color:rgba(49, 63, 56, 0.48);
+    backdrop-filter: blur(20px);
+}
+
+.negativ-block>li{
+    display: flex;
+    width: 250px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.negativ-block>.check-out{
+    display: flex;
+    justify-content: space-between;
+}
+
+.active-block{
+    width:431px ;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+}
+
+.nav-text-img p{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.alin-text-1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 5.5rem;
+    padding-inline: 1.5rem;
+}
+
+.from-1{
+    height: 2rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from-2{
+    height: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Воторой слайд */
+.second-bar{
+    height: 970px;
+}
+
+.second-bar>.about-us{
+    color: white;
+    width: 450px;
+    z-index: 2;
+    position:relative;
+   font-size: 130px;
+   margin-top: 30rem;
+   margin-left: 470px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.first-img>img{
+    position: absolute;
+    z-index: 1;
+    width: 553px;
+    height: 735.4px;
+    left: 20px;
+    top: 1596px;
+}
+
+.second-img>img{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    left: 1183px;
+    top: 1496px;
+}
+
+.High-quality{
+    font-size: 40px;
+    color:white;
+    position: absolute;
+    width: 230px;
+    height: 44px;
+    left: 712px;
+    top: 2107px;
+}
+
+.rand-text{
+    font-size: 16px;
+    color:white;
+    position: absolute;
+    width: 400px;
+    height: 140px;
+    left: 702px;
+    top: 2253px;
+}
+
+
+.gorz-len{
+    position: absolute;
+    width: 0px;
+    height: 894px;
+    left: 1140px;
+    top: 824.2px;
+    
+    border: 1px solid #3F5148;
+    transform: rotate(90deg);
+}
+
+.duga{
+    position: absolute;
+    width: 1103px;
+    height: 535px;
+    left: 0px;
+    top: 1271px;
+    
+    border: 1px solid #3F5148;
+    border-bottom: #3F5148;
+}
+
+.voln{
+    position: absolute;
+    z-index: -1;
+    width: 1063px;
+    height: 1035px;
+
+    left:40px;
+    top: 0px;
+    border-radius: 1540px;
+    border: 1px solid #3F5148;
+}
+.vert-len{
+    position: absolute;
+    width: 0px;
+    height: 1275px;
+    left: 1103px;
+    top: 1272px;
+    
+    border: 1px solid #3F5148;
+}
+
+/* Третий слайд */
+.third-bar{
+    padding-top: 15rem;
+    padding-bottom: 20rem;
+    background-color: white;
+    padding-inline:1.5rem ;
+}
+
+.room-apartmens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text{
+    font-size: 100px;
+    width: 60%;
+}
+
+.right-text{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
+    height: 66px;
+    font-size: 20px;
+}
+
+.room-description{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kursor{
+    width: 30%;
+    padding-top: 400px;
+}
+
+.opis{
+    padding-left: 100px;
+    width: 60%;
+    padding-top: 12rem ;
+}
+
+.opis>.punkt{
+    font-size: 45px;
+}
+
+.opis>.text-punkt{
+    margin-top: 6rem;
+    height: 250px;
+    width: 330px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-description{
+    width: 30%;
+}
+
+.img-description>.main-img{
+    position: relative;
+    z-index: 1;
+    width: 500px;
+}
+
+.img-description>.book-room{
+    bottom: 140px;
+    left: 350px;
+    position: relative;
+    z-index: 2;
+}
+
+.lines-list{
+    padding-inline: 1.5em ;
+    position: absolute;
+    height: 2300px;
+    width: 0px;
+    top: 2877px;
+    left: 1004px;
+    opacity: 0.24;
+    transform: rotate(90deg);
+    border: 1px solid #313F38;
+}
+
+/* Четвертый слайд */
+
+.fourth-bar>.best-apartmens>img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.fourth-bar>.best-apartmens>p{
+    color: gold;
+    font-size: 120px;
+    z-index: 1;
+    text-transform: uppercase;
+    position: relative;
+    top: 60px;
+    padding-left: 3rem;
+}
+
+.alt-room-decorection{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    font-size: 30px;
+    position: relative;
+    padding-left: 3.5rem;
+    top: 250px;
+}
+
+.congres{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 40rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.callery{
+    margin-top: 2rem;
+    color: gold;
+    font-size: 125px;
+    text-align: center;
+}
+
+.callery-content>.rand-text{
+    margin: 55rem;
+    text-align: center;
+    font-size: 14px;
+}
